@@ -84,11 +84,11 @@
 </tr>
 </table>
 
-- 注册帧       
+- 注册帧01    
 <table>
 <tr>
   <th rowspan="2">帧类型</th>
-  <th colspan="2">数据信息</th>
+  <th colspan="2">数据信息(dataArea) 下标13</th>
 </tr>
 <tr>
   <td>认证字段</td>
@@ -101,11 +101,11 @@
 </tr>
 </table>
 
-- 配对响应帧
+- 配对响应帧02
 <table>
 <tr>
   <th rowspan="2">帧类型</th>
-  <th colspan="3">数据信息</th>
+  <th colspan="3">数据信息(dataArea) 下标13</th>
 </tr>
 <tr>
   <td>IP</td>
@@ -120,7 +120,8 @@
 </tr>
 </table>
 
-
+## 服务端数据结构
+HashMap：配对码 - (ip、port、socket、连入时间)
 
 我们对Markdown编辑器进行了一些功能拓展与语法支持，除了标准的Markdown编辑器功能，我们增加了如下几点新功能，帮助你用它写博客：
 1. **全新的界面设计** ，将会带来全新的写作体验；

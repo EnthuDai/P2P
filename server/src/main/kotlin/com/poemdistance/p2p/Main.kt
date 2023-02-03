@@ -1,6 +1,6 @@
 package com.poemdistance.p2p
 
-
+@ExperimentalUnsignedTypes
 fun main(args: Array<String>) {
-    println("Hello world!")
+    NettyServer().start(22569)
 }

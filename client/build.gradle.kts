@@ -5,7 +5,7 @@ plugins {
     kotlin("jvm") version "1.8.0"
 }
 
-group = "com.poemdistance.p2p"
+group = "com.poemdistance"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -17,6 +17,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
     implementation(kotlin("stdlib-jdk8"))
     implementation("io.netty:netty-all:4.1.87.Final")
+
 }
 
 tasks.getByName<Test>("test") {
